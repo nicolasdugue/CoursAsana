@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Premiers pas avec Asana pour la gestion de projet</sp:title>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Depuis quelques années, de nouvelles méthodes de gestion de projet émergent (ex : AGILE). De nombreux outils en ligne sont également apparus pour implémenter ces approches organisationnelles.</sc:para>
+						<sc:para xml:space="preserve">Ces outils en ligne permettent en général de : </sc:para>
+						<sc:itemizedList>
+							<sc:listItem>
+								<sc:para xml:space="preserve">créer des équipes et d'inviter des collaborateurs dans ces équipes ;</sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">créer des projets ;</sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">créer des tâches affectées à ces projets ;</sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">affecter des dates ou des collaborateurs à ces tâches ;</sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">classer ces tâches.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve">Certains outils ont également des fonctionnalités permettant de partager des documents, de créer des conversations, et également de concevoir des diagrammes de Gantt.</sc:para>
+						<sc:para xml:space="preserve">Parmi ces outils, nous retrouvons Asana dont vous trouvez une capture d'écran ci-dessous. Sur cette capture d'écran, on peut voir un <sc:inlineStyle role="spec">"dashboard"</sc:inlineStyle> de gestion de projet. Les petits rectangles dont des tâches affectées au projet. Ces tâches sont classées dans des colonnes suivant une méthode d'organisation type Kanban ou AGILE. Le <sc:inlineStyle role="spec">"backlog"</sc:inlineStyle> contient tout ce qui doit être fait, la colonne <sc:inlineStyle role="spec">ready-to-do</sc:inlineStyle>, ce qui est prêt à être commencé, la colonne <sc:inlineStyle role="spec">in progress</sc:inlineStyle> ce qui est en cours et la colonne <sc:inlineStyle role="spec">done</sc:inlineStyle> ce qui est terminé.</sc:para>
+						<sc:para xml:space="preserve">Sur chaque tâche, un visage apparaît, celui de la personne qui a reçu l'affectation de cette tâche. On voit également parfois une date d'échéance.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/images/Asanapres.png">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Asana n'est pas le seul outil qui propose ce genre de fonctionnalités. Parmi les plus connus et les plus utilisés, on cite notamment Wrike ou encore Trello dont on voiture une capture d'écran ci-dessous. Le fonctionnement de Trello est à peu près similaire à celui d'Asana.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/images/trellopres.png">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve"><sc:inlineStyle role="quote"><sc:inlineStyle role="emp">Pourquoi Asana ?</sc:inlineStyle></sc:inlineStyle></sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Asana est un outil qui propose de nombreuses fonctionnalités en mode gratuit dont Trello ne dispose pas : </sc:para>
+						<sc:itemizedList>
+							<sc:listItem>
+								<sc:para xml:space="preserve">les conversations ;</sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">le dépôt de fichiers ; </sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">l'interfaçage avec instagantt pour produire des diagrammes de Gantt.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve">Ces fonctionnalités font qu'il n'est pas nécessaire d'utiliser d'outils additionnels, Asana peut suffire pour faciliter l'organisation, la communication, le partage, et la restitution autour du projet.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:courseUc>
+			<op:expUc>
+				<op:uM>
+					<sp:title>Le tutoriel Asana</sp:title>
+				</op:uM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Une fois créé votre compte, vous arrivez sur la page suivante.</sc:para>
+										<sc:para xml:space="preserve">On y retrouve les équipes qui ont été créées, les projets de chaque équipe, le menu de navigation, le menu de projet, les membres du projet et le "dashboard".</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/DashboardTeam.png">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:info>
+						<sp:meth>
+							<op:pbTi>
+								<sp:title>Créer une équipe</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">En cliquant sur le "+" près de Teams, vous pourrez créer une équipe et inviter des collaborateurs dans cette équipe.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:meth>
+						<sp:meth>
+							<op:pbTi>
+								<sp:title>Créer un projet</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:res sc:refUri="/images/AsanaNouveauProjet.png">
+									<op:resInfoM/>
+								</sp:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">En appuyant sur le "+" à coté de la liste des projets initulée "Projects", vous pouvez créer un nouveau projet. Choisissez le Layout "Board" qui est le type d'organisation visuelle du projet majoritaire, il est en effet plus ergonomique.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:meth>
+						<sp:meth>
+							<op:pbTi>
+								<sp:title>Créer la board</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Nous avons créé nous une équipe "Team UM" et un projet "Cours Asana". Nous allons maintenant mettre à jour la "board" qui décrit les différentes tâches de notre projet.</sc:para>
+										<sc:para xml:space="preserve">En Agile, ou en méthode Kanban, on utilise souvent plusieurs colonnes telles que celles décrites ci-dessous (Todo, In progress, Done, etc). Pour créer ces colonnes, il vous suffit de cliquer sur "Add column".</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/AsanaBoard.png">
+									<op:resInfoM/>
+								</sp:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Ensuite, dans chaque colonne apparaît une petite icône "+". En cliquant sur cette icône, nous avons la possibilité d'ajouter des tâches dans ces colonnes, comme ci-dessous.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/AsanaBoardComplétée.png">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:meth>
+						<sp:meth>
+							<op:pbTi>
+								<sp:title>Assigner les tâches</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">En cliquant comme ci-dessous, vous pouvez assigner des membres de votre équipe à chacune de vos tâches.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/AsanaAssignerTache.png">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:meth>
+						<sp:meth>
+							<op:pbTi>
+								<sp:title>Assigner une date</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Vous pouvez également assigner une échéance à chacune de vos tâches comme ci-dessous.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/AsanaAssignerDate.png">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:meth>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Calendrier</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Dans le menu du projet, il est possible de cliquer sur le calendrier du projet. Si vous avez assigné des dates et des membres de votre équipe à certaines tâches, elles apparaitront sur le calendrier comme ci-dessous avec la tâche du 15 août.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/AsanaCalendrier.png">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:info>
+						<sp:meth>
+							<op:pbTi>
+								<sp:title>Tagger les tâches</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Il est possible de tagger chaque tâches avec différents mot-clés de façon à organiser vos tâches comme ci-dessous.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/AsanaTagger.png">
+									<op:resInfoM/>
+								</sp:res>
+								<sp:res sc:refUri="/images/AsanaTagger2.png">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:meth>
+						<sp:meth>
+							<op:pbTi>
+								<sp:title>Commenter les tâches</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Il est possible de commenter chacune des tâches comme ce qui est mis en surbrillance ci-dessous. Dans un commentaire, il est possible de mentionner un membre de votre équipe en utilisant "@NomMembre". Cela permet d'attirer l'attention du membre de votre équipe sur votre commentaire.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/Asana Commentaire.png">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:meth>
+						<sp:meth>
+							<op:pbTi>
+								<sp:title>Ajouter un fichier</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Vous pouvez ajouter des fichiers sur chacune des tâches pour les partager avec vos collaborateurs.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/AsanaAjouterFichier0.png">
+									<op:resInfoM/>
+								</sp:res>
+								<sp:res sc:refUri="/images/AsanaAjouterFichier.png">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:meth>
+						<sp:ex>
+							<op:pbTi>
+								<sp:title>Board finale...</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Si vous ajoutez des fichiers image, celles-ci seront affichées sur la board. Vous verrez ainsi sur chaque tâche : l'image qui la représente, la date d'échéance, le membre à qui elle est affectée d'un coup d'oeil sur la board.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/AsanaBoardFinales.png">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:ex>
+					</op:pb>
+				</sp:pb>
+			</op:expUc>
+		</sp:courseUc>
+		<sp:courseUc>
+			<op:filter/>
+			<op:expUc>
+				<op:uM>
+					<sp:title>Interfacer Instagantt</sp:title>
+				</op:uM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Diagramme de Gantt avec Asana</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Grace à l'outil <sc:phrase role="url"><op:urlM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:url>https://instagantt.com/app/#</sp:url></op:urlM>Instagantt</sc:phrase>, vous pouvez également générer automatiquement le diagramme de Gantt de votre projet. Pour cela bien sûr, il est nécessaire que vous ayez associé des dates d'échéance à vos tâches.</sc:para>
+										<sc:para xml:space="preserve">Cela vous donne des résultats comme ci-dessous.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/AsanaInstaGantt.png">
+									<op:resInfoM/>
+								</sp:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Connectez vous donc à InstaGantt avec votre compte Asana en cliquant sur "Sign up with Asana".</sc:para>
+										<sc:para xml:space="preserve">Une fois connecté, vous pouvez connecter vos projets à Instagantt. Cliquer sur "Sync Projects lists" dans la barre de gauche.</sc:para>
+										<sc:para xml:space="preserve">Puis cliquer sur "Connect projects" comme ci-dessous, et choisissez le project à connecter.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/images/AsanaInstaGanttConnect.png">
+									<op:resInfoM/>
+								</sp:res>
+								<sp:res sc:refUri="/images/AsanaInstaGanttConnectProjects2.png">
+									<op:resInfoM/>
+								</sp:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Il est ensuite possible d'exporter le diagramme sous forme d'image ou de pdf en cliquant sur "Export and share" en haut.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUc>
+		</sp:courseUc>
+	</op:courseUa>
+</sc:item>
